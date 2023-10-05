@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container {
+   padding: 3rem;
+   font-size: 30px;
+}
+.column-A{
+    padding-bottom:3rem;
+}
+
+.column-A li{
+    list-style: none;
+}
+.dropzone {
+    width: 15rem;
+    height: 2rem;
+    border: 1px solid black;
+    color: aliceblue;
+    text-align: center;
+    display: inline-block;
+
+}
+
+p {
+    white-space: nowrap;
+}
+
+/* STYLE MODAL */
+
+
+
