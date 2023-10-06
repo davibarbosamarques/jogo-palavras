@@ -58,11 +58,10 @@ body {
      list-style: none;
  }
  .dropzone {
-    color: #fff;
-    min-width: 1.5rem;
-     width: 10rem;
-     min-height: 1.7rem;
-     height: auto;
+     color: #fff;
+     min-width: 10rem;
+     width: auto;
+     height: 1.7rem;
      border: 1px solid black;
    
      text-align: center;
