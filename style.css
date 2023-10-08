@@ -47,27 +47,34 @@ body {
   
     padding-top: 5px;
     padding-bottom: 5px;
-  }
-  
-
- .column-A{
-     padding-bottom:1rem;
- }
- 
+}
  .column-A li{
      list-style: none;
+
+     display: flex;
+     justify-content: space-between;
+     background-color: #5f666d;
+     color: #fff;
+     min-width: 10rem;
+     width: auto;
+     height: 1.7rem;
+     justify-content: center;
+     align-items: center;
+     border-radius: 5px;
+     cursor: pointer;
+     padding: 5px;
  }
  .dropzone {
      color: #fff;
      min-width: 10rem;
      width: auto;
      height: 1.7rem;
-     border: 1px solid black;
-   
+     border: 1px solid black;  
      text-align: center;
      display: inline-block;
-     text-align: center;
-     text-justify: center;
+     border-radius: 5px;
+     padding-left: 5px;
+     padding-right: 5px;
  }
  
 /* FIM DO CORPO DO JOGO */
