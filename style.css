@@ -16,90 +16,98 @@ body {
   min-height: 100vh;
   background: #5372F0;
 }
+
 /* CORPO DO JOGO */
 .Jogo {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 
-   padding: 1rem;
-  }
-  
-  #item-B {
-    align-items: start;
-  
-    padding-top: 5px;
-    padding-bottom: 5px;
-  
-    
-  }
-  #item-B li{
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  #column-A li:hover{
-    color: black;
-  }
-  #item-A{
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: start;
-  
-    padding-top: 5px;
-    padding-bottom: 5px;
+
+  padding: 1rem;
 }
- .column-A li{
-     list-style: none;
 
-     display: flex;
-     justify-content: space-between;
-     background-color: #5f666d;
-     color: #fff;
-     min-width: 10rem;
-     width: auto;
-     height: 1.7rem;
-     justify-content: center;
-     align-items: center;
-     border-radius: 5px;
-     cursor: pointer;
-     padding: 5px;
- }
- .dropzone {
-     color: #fff;
-     min-width: 10rem;
-     width: auto;
-     height: 1.7rem;
-     border: 1px solid black;  
-     text-align: center;
-     display: inline-block;
-     border-radius: 5px;
-     padding-left: 5px;
-     padding-right: 5px;
- }
- 
+#item-B {
+  align-items: start;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+
+}
+
+#item-B li {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#item-A {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: start;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.column-A li {
+  list-style: none;
+
+  display: flex;
+  justify-content: space-between;
+  background-color: #5f666d;
+  color: #fff;
+  min-width: 10rem;
+  width: auto;
+  height: 1.7rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.column-A li:hover {
+  color: black;
+}
+
+.dropzone {
+  color: #fff;
+  min-width: 10rem;
+  width: auto;
+  height: 1.7rem;
+  border: 1px solid black;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 /* FIM DO CORPO DO JOGO */
 
 /* ESTRUTURA DO MODAL */
-#btn-game{
+#btn-game {
   background-color: #26a737;
   color: white;
 }
-#btn-voltar{
+
+#btn-voltar {
   background-color: #26a737;
   color: white;
 }
-#puzzle{
+
+#puzzle {
   margin-right: 8px;
 }
 
-#puzzle2{
+#puzzle2 {
   margin-left: 8px;
 }
 
-#close{
+#close {
   width: 25px;
   cursor: pointer;
   display: flex;
@@ -109,7 +117,7 @@ body {
   margin-top: 15px;
 }
 
-#close:hover{
+#close:hover {
   color: #636060;
 }
 
@@ -117,25 +125,25 @@ body {
 .start_btn,
 .info_box,
 .quiz_box,
-.result_box{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
-                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.result_box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .info_box.activeInfo,
 .quiz_box.activeQuiz,
-.result_box.activeResult{
-    opacity: 1;
-    z-index: 5;
-    pointer-events: auto;
-    transform: translate(-50%, -50%) scale(1);
+.result_box.activeResult {
+  opacity: 1;
+  z-index: 5;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
 }
 
-.info_box{
+.info_box {
   width: 540px;
   background: #fff;
   border-radius: 5px;
@@ -145,7 +153,7 @@ body {
   transition: all 0.3s ease;
 }
 
-.info_box .info-title{
+.info_box .info-title {
   height: 60px;
   width: 100%;
   border-bottom: 1px solid lightgrey;
@@ -157,20 +165,21 @@ body {
   font-weight: 600;
 }
 
-.info_box .info-list{
+.info_box .info-list {
   padding: 15px 30px;
 }
 
-.info_box .info-list .info{
+.info_box .info-list .info {
   margin: 5px 0;
   font-size: 17px;
 }
 
-.info_box .info-list .info span{
+.info_box .info-list .info span {
   font-weight: 600;
   color: #007bff;
 }
-.info_box .buttons{
+
+.info_box .buttons {
   height: 60px;
   display: flex;
   align-items: center;
@@ -179,7 +188,7 @@ body {
   border-top: 1px solid lightgrey;
 }
 
-.info_box .buttons button{
+.info_box .buttons button {
   margin: 0 5px;
   height: 40px;
   width: 100px;
@@ -303,7 +312,8 @@ body {
 .buttons .check-word:hover {
   background: #2c52ed;
 }
-#instrucoes li{
+
+#instrucoes li {
   padding: 3px;
 }
 
