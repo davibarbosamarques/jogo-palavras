@@ -17,19 +17,17 @@ body {
   background: #5372F0;
 }
 
+
 /* CORPO DO JOGO */
 .Jogo {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-
-
   padding: 1rem;
 }
 
 #item-B {
   align-items: start;
-
   padding-top: 5px;
   padding-bottom: 5px;
 
@@ -47,17 +45,15 @@ body {
   display: flex;
   flex-wrap: nowrap;
   align-items: start;
-
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
 .column-A li {
   list-style: none;
-
   display: flex;
   justify-content: space-between;
-  background-color: #5f666d;
+  background-color: #797984;
   color: #fff;
   min-width: 10rem;
   width: auto;
@@ -67,10 +63,12 @@ body {
   border-radius: 5px;
   cursor: pointer;
   padding: 5px;
+  transition: 0.3s;
 }
 
 .column-A li:hover {
-  color: black;
+  transform: scale(1.1);
+  /* color: black; */
 }
 
 .dropzone {
@@ -92,8 +90,18 @@ body {
 #btn-game {
   background-color: #26a737;
   color: white;
+  font-size: 20px;
+  margin: 1.5rem 0;
+  width: auto;
 }
-
+h1#exampleModalToggleLabel.modal-title.fs-3{
+  visibility: visible;
+  opacity: 1 !important;
+}
+h1#exampleModalToggleLabel2.modal-title.fs-3{
+  visibility: visible;
+  opacity: 1 !important;
+}
 #btn-voltar {
   background-color: #26a737;
   color: white;
@@ -101,6 +109,7 @@ body {
 
 #puzzle {
   margin-right: 8px;
+  color: #ffff;
 }
 
 #puzzle2 {
