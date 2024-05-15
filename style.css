@@ -375,3 +375,14 @@ h1#exampleModalToggleLabel2.modal-title.fs-3{
     width: calc(100% / 2 - 7px);
   }
 }
+@media(max-width:760px){
+  img{
+    display: none;
+  }
+  .right{
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
